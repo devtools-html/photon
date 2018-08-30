@@ -3,7 +3,9 @@
 Requires:
 * docker
 
-To run (with hot-reloading!):
+To preview your changes (with hot-reloading!):
+
+Check out a copy of the repository, and go to that directory. Then run:
 ```
 $ docker pull praqma/gh-pages
 $ docker run --name photon -d -v $PWD/jekyll:/home/jenkins -p 4000:4000 praqma/gh-pages || docker start photon
