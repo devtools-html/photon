@@ -10,11 +10,11 @@ Splitters are used to separate the contents of developer tools into several resi
 ## Usage
 
 <div class="grid-2" markdown="1">
-![Example of splitters](../images/components/splitters/splitters-usage.png)
+![Example of splitters](../images/compone nts/splitters/splitters-usage.png)
 
-To view split panes in developer tools, use splitters to separate the views.
+Some split panes in developer tools can be activated using the sidebar toggle button or by turning on the split Console.
 </div>
 
 ## Future Work
 
-Splitters will be 2px wide in vertical mode and have a hover effect. This is currently available in Nightly.
+In vertical mode, horizontal splitters will be 2px wide and have a hover effect to differentaite them from other horizontal lines. This is currently available in Nightly ([bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1465644)).
