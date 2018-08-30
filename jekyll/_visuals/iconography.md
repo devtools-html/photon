@@ -62,3 +62,6 @@ Finally, save your icon as SVG (and .png if you're working on mobile).
 
 All icons should have a text-based equivalent for screen readers. If your icon allows interactivity, give it a text label.
 
+## DevTools
+
+DevTools is very complicated, and so requires much smaller icons to fit everything in. We suggest 2px by 2px icons for simplicity.
