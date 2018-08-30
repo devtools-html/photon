@@ -5,4 +5,4 @@ order: 8
 draft: true
 ---
 
-Tables draft file
+Tables draft
