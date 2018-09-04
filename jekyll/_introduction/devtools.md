@@ -9,9 +9,23 @@ Firefox Developer Tools follow the same general Photon principles as Firefox, bu
 
 ### Principles
 
-- Keeping both beginners and power-users in mind
+- Keeping both beginners and experienced users in mind
 - Optimizing for both design-in-brower and debugging
 - (more later)
+
+### Panel Overview:
+
+- Inspector: Actively developed
+  - Most current work is on Flexbox, Fonts, RDM, and Track Changes
+- Console: Actively developed
+- Debugger: Actively developed
+- Network: Actively developed
+- Accessibility: 1.0 recently launched by @yzen
+- Style Editor: On hold
+- Performance: On hold
+- Memory: On hold
+- Storage: Will be merged with new Application panel
+- Other panels: May be removed
 
 ### DevTools-Specific Components
 
