@@ -25,7 +25,7 @@ Firefox Developer Tools follow the same general Photon principles as Firefox, bu
 - Performance: On hold
 - Memory: On hold
 - Storage: Will be merged with new Application panel
-- Other panels: May be removed
+- Other panels: On hold, may be removed
 
 ### DevTools-Specific Components
 
