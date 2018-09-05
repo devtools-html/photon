@@ -19,7 +19,7 @@ Firefox Developer Tools follow the same general Photon principles as Firefox, bu
   - Flexbox Inspector: Under active design & dev, not yet launched
   - Fonts Editor: 1.0 launching soon
   - Track Changes: In early development
-  - Responsive Design Mode: 1.0 done, major features planned
+  - Responsive Design Mode: Actively developed, major features planned
   - Animation Inspector: Actively developed
   - Grid Inspector: 1.0 done, polish and subgrid planned
 - Console: Actively developed
