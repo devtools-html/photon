@@ -23,6 +23,8 @@ Firefox Developer Tools follow the same general Photon principles as Firefox, bu
   - Responsive Design Mode: Recently updated, major features planned
   - Animation Inspector: Actively developed
   - Grid Inspector: 1.0 done, polish and subgrid planned
+  - Color Picker: Redesign in development
+  - Shape Editor: Recently launched
 - Console
 - Debugger
 - Network
@@ -31,12 +33,11 @@ Firefox Developer Tools follow the same general Photon principles as Firefox, bu
 - Accessibility: 1.0 recently launched by @yzen
 
 #### Not Currently Under Development
+- Performance (see [Perf.html](https://github.com/devtools-html/perf.html) for current performance tooling)
 - Style Editor
-- Performance
 - Memory
 - Scratchpad
 - Storage: Will be merged with new Application panel
-- Other panels: On hold, may be removed
 
 ### DevTools-Specific Components
 
