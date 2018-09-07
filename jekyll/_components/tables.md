@@ -65,7 +65,7 @@ Even Row Background Color: `rgba(255,255,255,0.05)` (RGBA overlays the default G
 
 Column Header Background Color: Grey 85 `#1b1b1d`
 
-Border/splitter Color: `#3c3c3d`
+Border/splitter Color: Grey 70 `#38383d`
 
 Text Color: Grey 40 `#b1b1b3`
 
