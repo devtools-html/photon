@@ -2,6 +2,7 @@
 layout: page
 title: Tables
 order: 9
+draft: true
 ---
 
 Tabular data appears in a variety of places, the Network panel is the most obvious example. The console is also able to output a visual table using `console.table()` e.g. `console.table(["apples", "oranges", "bananas"]);`
@@ -9,7 +10,7 @@ Tabular data appears in a variety of places, the Network panel is the most obvio
 ## Usage
 
 <div class="grid-2" markdown="1">
-![Usage Example of a Checkbox as used in Firefox Options](../images/components/tables/table-grid-light.png)
+![Network table](../images/components/tables/table-grid-light.png)
 
 <div markdown="1">
 Tables are used when data needs to be presented in a series of rows which may also posses any amount of columns. For large quantities of data it is recommended to include a button column header allowing users to sort the data by that specific column, as seen in the Network panel
@@ -37,8 +38,14 @@ Console table columns are not sortable or resizable.
 ![Network table timeline example](../images/components/tables/table-timeline.png)
 
 <div markdown="1">
-The Network panel table features column sorting and row highlighting on hover. the table can contain a rich variety of data including text, images (icons: `16px` x `16px`) and timeline interface elements like graphs and vertical rules (pictured).
+The Network panel table features column sorting and row highlighting on hover. the table can contain a rich variety of data including text, badges, images ([icons](../visuals/iconography): `16px` x `16px`) and timeline interface elements like graphs and vertical rules (pictured).
+</div>
+</div>
 
+<div class="grid-2" markdown="1">
+![Network table filter controls](../images/components/tables/table-filter-tools.svg)
+
+<div markdown="1">
 Filter controls are provided in the form of buttons for specific resource types and a filter input field for filtering URLs.
 </div>
 </div>
@@ -49,39 +56,47 @@ Table rows alternate their background color, the subtle "zebra" effect assists i
 
 ### Dark mode
 <div class="grid-2" markdown="1">
-![Usage Example of a Checkbox as used in Firefox Options](../images/components/tables/table-grid-dark.png)
+![Network table in dark mode](../images/components/tables/table-grid-dark.png)
 
 <div markdown="1">
-Odd rows: Grey 80 `#2a2a2e`
+Odd Row Background Color: Grey 80 `#2a2a2e`
 
-Even rows: `rgba(255,255,255,0.05)`
+Even Row Background Color: `rgba(255,255,255,0.05)` (RGBA overlays the default Grey 80 `#2a2a2e`)
 
-Column header: Grey 85 `#1b1b1d`
+Column Header Background Color: Grey 85 `#1b1b1d`
 
-Borders/splitters: `#3c3c3d`
+Border/splitter Color: `#3c3c3d`
 
-Text: Grey 40 `#b1b1b3`
+Text Color: Grey 40 `#b1b1b3`
 
-Selected row: `#204E8A`
+#### Selected row:
+
+Background Color: Blue 70 `#003eaa`
+
+Text Color: white `#ffffff`
 </div>
 </div>
 
 ### Light mode
 <div class="grid-2" markdown="1">
-![Usage Example of a Checkbox as used in Firefox Options](../images/components/tables/table-grid-light.png)
+![Network table in light mode](../images/components/tables/table-grid-light.png)
 
 <div markdown="1">
-Odd rows: white `#ffffff`
+Odd Rows Background Color white `#ffffff`
 
-Even rows: `rgba(0,0,0,0.05)`
+Even Rows Background Color: `rgba(0,0,0,0.05)` (RGBA overlays the default white `#ffffff`)
 
-Column header: Grey 10 `#f9f9fa`
+Column Header Background Color: Grey 10 `#f9f9fa`
 
-Borders/splitters: Grey 25 `#e0e0e2`
+Border/splitter Color: Grey 25 `#e0e0e2`
 
-Text: Grey 70 `#38383d`
+Text Color: Grey 70 `#38383d`
 
-Selected row: Blue 55 `#0074e8`
+#### Selected row:
+
+Background Color: Blue 55 `#0074e8`
+
+Text Color: white `#ffffff`
 </div>
 </div>
 
@@ -101,19 +116,23 @@ Line height: `24px`
 
 ### Sorting
 <div class="grid-2" markdown="1">
-![Table Column headers](../images/components/tables/table-header-button.png)
+![Table column headers](../images/components/tables/table-header-button.png)
 
 <div markdown="1">
-Tables can posses sortable column headers, clicking these buttons will toggle the sorting of the column they relate to. In the image, clicking the "Size" button header toggles the Size column from largest to smallest and from smallest to largest.
+Tables should posses sortable column headers, clicking these buttons will toggle the sorting of the column they relate to. In the image, clicking the "Size" button header toggles the Size column from largest to smallest and from smallest to largest.
 
-Selected column header (Light mode): Blue 55 `#0074e8`
+#### Selected Column Header (Light mode):
 
-Selected column header (Dark mode): `#204E8A`
+Background Color: Blue 55 `#0074e8`
+
+#### Selected Column Header (Dark mode):
+
+Background Color: Blue 70 `#003eaa`
 </div>
 </div>
 
 <div class="grid-2" markdown="1">
-![Table Column headers](../images/components/tables/table-header-tooltip.png)
+![Table column tooltip](../images/components/tables/table-header-tooltip.png)
 
 <div markdown="1">
 If the table header is a clickable button to provide sorting controls, the tooltip should illustrate what the current sorting pattern is e.g. Sorted ascending, Sorted descending. 
@@ -126,7 +145,7 @@ If the table header is a clickable button to provide sorting controls, the toolt
 ![Example of an image preview as tooltip](../images/components/tables/table-rich-tooltips.png)
 
 <div markdown="1">
-Table cells tooltips have the opportunity to provide extra information/context to the data being hovered over. For example, a domain name when hovered can additionally provide the IP address of the domain.
+Table cell tooltips have the opportunity to provide extra information/context to the data being hovered over. For example, a domain name when hovered can additionally provide the IP address of the domain.
 
 When an image name is hovered over a [doorhanger](./doorhangers) should present a preview of the image with a caption containing the real pixel dimensions.
 
@@ -135,9 +154,10 @@ When an image name is hovered over a [doorhanger](./doorhangers) should present 
 
 ## Future Improvements
 
-### Column resizing
-The Network table in particular requires individual column resizing capabilities so that lengthy strings like filenames and domains can be read easily without the need to alter the devtools or browser window width. 
-Perhaps not a requirement for console tables.
+### Column resizing and sorting
 
-###Sortable console table columns
+All tables should provide column resizing and sorting functionality. Currently, not all tables provide these features.
+
+The Network table requires individual column resizing capabilities so that lengthy strings like filenames and domains can be read easily without the need to alter the devtools or browser window width. 
+
 Tables output to the console appear static, column headers provide no sorting behaviours. 
