@@ -5,7 +5,7 @@ order: 9
 draft: true
 ---
 
-Tabular data appears in a variety of places, the Network panel is the most obvious example. The console is also able to output a visual table using `console.table()` e.g. `console.table(["apples", "oranges", "bananas"]);`
+Tabular data appears in a variety of places, the Network panel is the most obvious example. The console is also able to output a visual table using `console.table()` e.g. `console.table(["apples", "oranges", "bananas"]);`.
 
 ## Usage
 
@@ -13,7 +13,7 @@ Tabular data appears in a variety of places, the Network panel is the most obvio
 ![Network table](../images/components/tables/table-grid-light.png)
 
 <div markdown="1">
-Tables are used when data needs to be presented in a series of rows which may also posses any amount of columns. For large quantities of data it is recommended to include a button column header allowing users to sort the data by that specific column, as seen in the Network panel
+Tables are used when data needs to be presented in a series of rows which may also possess any amount of columns. For large quantities of data it is recommended to include an interactive column header allowing users to sort the data by that specific column, as seen in the Network panel.
 </div>
 </div>
 
@@ -38,7 +38,7 @@ Console table columns are not sortable or resizable.
 ![Network table timeline example](../images/components/tables/table-timeline.png)
 
 <div markdown="1">
-The Network panel table features column sorting and row highlighting on hover. the table can contain a rich variety of data including text, badges, images ([icons](../visuals/iconography): `16px` x `16px`) and timeline interface elements like graphs and vertical rules (pictured).
+The Network panel table features column sorting and row highlighting on hover. The table can contain a rich variety of data including text, badges, images ([icons](../visuals/iconography): `16px` x `16px`) and timeline interface elements like graphs and vertical rules (pictured).
 </div>
 </div>
 
@@ -119,7 +119,9 @@ Line height: `24px`
 ![Table column headers](../images/components/tables/table-header-button.png)
 
 <div markdown="1">
-Tables should posses sortable column headers, clicking these buttons will toggle the sorting of the column they relate to. In the image, clicking the "Size" button header toggles the Size column from largest to smallest and from smallest to largest.
+Tables should possess sortable column headers, clicking these buttons will toggle the sorting of the column they relate to. 
+
+In the image, clicking the interactive "Size" header toggles the Size column from largest to smallest and from smallest to largest.
 
 #### Selected Column Header (Light mode):
 
@@ -161,3 +163,9 @@ All tables should provide column resizing and sorting functionality. Currently, 
 The Network table requires individual column resizing capabilities so that lengthy strings like filenames and domains can be read easily without the need to alter the devtools or browser window width. 
 
 Tables output to the console appear static, column headers provide no sorting behaviours. 
+
+### Revision to zebra stripe and hover color scheme
+
+The current table zebra effect is quite intense and should be revised for a subtler appearance that is easier on the eyes. Additionally, the row highlight color should perhaps be a modification of the underlying row color as opposed to being a solid hover color for both odd and even rows, this will retain the zebra effect while moving the cursor down the table. 
+
+See: [Improve zebra table colors (Network, Storage)](https://github.com/devtools-html/ux/issues/10) 
