@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Radio Buttons
-order: 7
+order: 8
 ---
 
 Radio buttons allow a selection of one option from a group of mutually exclusive options.
