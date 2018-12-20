@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="140px" viewBox="0 0 360 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>pane-sizes</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M211.973214,11.9732143 L208.401786,11.9732143 L208.401786,8.40178571 C208.401786,8.00729661 208.081989,7.6875 207.6875,7.6875 C207.293011,7.6875 206.973214,8.00729661 206.973214,8.40178571 L206.973214,11.9732143 L203.401786,11.9732143 C203.007297,11.9732143 202.6875,12.2930109 202.6875,12.6875 C202.6875,13.0819891 203.007297,13.4017857 203.401786,13.4017857 L206.973214,13.4017857 L206.973214,16.9732143 C206.973214,17.3677034 207.293011,17.6875 207.6875,17.6875 C208.081989,17.6875 208.401786,17.3677034 208.401786,16.9732143 L208.401786,13.4017857 L211.973214,13.4017857 C212.367703,13.4017857 212.6875,13.0819891 212.6875,12.6875 C212.6875,12.2930109 212.367703,11.9732143 211.973214,11.9732143 Z" id="path-1"></path>
+    </defs>
+    <g id="pane-sizes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="360" height="140"></rect>
+        <g id="Panel" transform="translate(65.000000, 44.000000)">
+            <rect id="Rectangle" stroke="#E0E0E2" fill="#FFFFFF" x="-0.5" y="-0.5" width="231" height="221"></rect>
+            <rect id="Rectangle" stroke="#E0E0E2" fill="#F9F9FA" x="-0.5" y="-0.5" width="231" height="25"></rect>
+            <text id="Panel-Header-Title" font-family="SFProText-Regular, SF Pro Text" font-size="12" font-weight="normal" fill="#4A4A4F">
+                <tspan x="20" y="16">Panel Header Title</tspan>
+            </text>
+            <text id="Panel-Content" font-family="SFProText-Regular, SF Pro Text" font-size="12" font-weight="normal" fill="#4A4A4F">
+                <tspan x="20" y="39">Panel Content</tspan>
+            </text>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#4A4A4F" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <path d="M10,14 C9.74919848,14 9.54855726,13.9038462 9.39807635,13.7115385 L6.18781689,10.0576923 C5.98717567,9.81730769 5.93701537,9.625 6.08749628,9.33653846 C6.23797719,9.04807692 6.48877871,9 6.78974054,9 L13.2102595,9 C13.5112213,9 13.8121831,9.04807692 13.9125037,9.33653846 C14.0629846,9.625 14.0128243,9.86538462 13.8121831,10.1057692 L10.6019236,13.7596154 C10.4514427,13.9519231 10.2508015,14 10,14 Z" id="Shape" fill="#B2B2B2" fill-rule="nonzero"></path>
+        </g>
+        <g id="#height-right-9CBF819E-8830-4810-900B-CAD7BE06B7C9" transform="translate(296.000000, 44.000000)">
+            <rect id="line" fill="#FF1AD9" x="2" y="0" width="1" height="24"></rect>
+            <rect id="start" fill="#FF1AD9" x="0" y="0" width="5" height="1"></rect>
+            <rect id="end" fill="#FF1AD9" x="0" y="23" width="5" height="1"></rect>
+            <rect id="box" fill="#FF1AD9" x="9" y="1" width="35" height="22" rx="2"></rect>
+            <rect id="arrow" fill="#FF1AD9" transform="translate(10.000000, 12.000000) rotate(-45.000000) translate(-10.000000, -12.000000) " x="7" y="9" width="6" height="6"></rect>
+            <text id="Text" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#FFFFFF">
+                <tspan x="13" y="16">24px</tspan>
+            </text>
+        </g>
+        <g id="#spacing-vertical-64FCD31C-B4D4-4E74-B974-7862BD44AB08-9CBF819E-8830-4810-900B-CAD7BE06B7C9" transform="translate(228.500000, 70.000000) scale(-1, 1) translate(-228.500000, -70.000000) translate(209.000000, 59.000000)">
+            <rect id="line" fill="#30E60B" x="36" y="9" width="1" height="4"></rect>
+            <rect id="start" fill="#30E60B" x="34" y="9" width="5" height="1"></rect>
+            <rect id="end" fill="#30E60B" x="34" y="12" width="5" height="1"></rect>
+            <rect id="box" fill="#30E60B" x="0" y="0" width="29" height="22" rx="2"></rect>
+            <rect id="arrow" fill="#30E60B" transform="translate(28.000000, 11.000000) rotate(-45.000000) translate(-28.000000, -11.000000) " x="25" y="8" width="6" height="6"></rect>
+            <text id="Text" transform="translate(14.500000, 11.000000) scale(-1, 1) translate(-14.500000, -11.000000) " font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#002D3E">
+                <tspan x="4" y="15">4px</tspan>
+            </text>
+        </g>
+        <g id="#spacing-left-64FCD31C-B4D4-4E74-B974-7862BD44AB08-A042C770-2FCE-4C4D-8EAE-292E3E6E1CB5" transform="translate(58.000000, 77.000000)">
+            <rect id="line" fill="#30E60B" x="7" y="2" width="20" height="1"></rect>
+            <rect id="start" fill="#30E60B" x="7" y="0" width="1" height="5"></rect>
+            <rect id="end" fill="#30E60B" x="26" y="0" width="1" height="5"></rect>
+            <rect id="box" fill="#30E60B" x="0" y="8" width="35" height="22" rx="2"></rect>
+            <rect id="arrow" fill="#30E60B" transform="translate(18.000000, 9.000000) rotate(-45.000000) translate(-18.000000, -9.000000) " x="15" y="6" width="6" height="6"></rect>
+            <text id="Text" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#002D3E">
+                <tspan x="4" y="23">20px</tspan>
+            </text>
+        </g>
+        <g id="#spacing-horizontal-E50CB555-9497-4964-9BB7-7E1CCDCDDAB0-8095B3BA-99AD-4B59-ACF9-5F0EA81DAFCD" transform="translate(82.500000, 41.000000) scale(1, -1) translate(-82.500000, -41.000000) translate(68.000000, 26.000000)">
+            <rect id="line" fill="#30E60B" x="11" y="2" width="6" height="1"></rect>
+            <rect id="start" fill="#30E60B" x="11" y="0" width="1" height="5"></rect>
+            <rect id="end" fill="#30E60B" x="16" y="0" width="1" height="5"></rect>
+            <rect id="box" fill="#30E60B" x="0" y="8" width="29" height="22" rx="2"></rect>
+            <rect id="arrow" fill="#30E60B" transform="translate(15.000000, 9.000000) rotate(-45.000000) translate(-15.000000, -9.000000) " x="12" y="6" width="6" height="6"></rect>
+            <text id="6px" transform="translate(14.500000, 19.000000) scale(1, -1) translate(-14.500000, -19.000000) " font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#002D3E">
+                <tspan x="4" y="23">6px</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
