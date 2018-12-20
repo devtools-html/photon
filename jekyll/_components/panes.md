@@ -196,7 +196,7 @@ height: `10px`
 ### Expand and collapse
 
 <div class="grid-2" markdown="1">
-![Pane behaviour](../images/components/pane/pane-behaviour.png)
+![Pane behaviour](../images/components/pane/pane-behaviour.gif)
 
 <div markdown="1">
 Panes which include an arrow icon within the header indicate that their content can be expanded or collapsed. 
