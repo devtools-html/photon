@@ -15,6 +15,15 @@ Doorhangers provide a way to present decisions to users which is less intrusive 
 Doorhangers are used for prompt and notification; they are used for full featured UI; or they are used for list and menu as in the example on the left.
 </div>
 
+<div class="grid-2" markdown="1">
+![Doorhangers as menu overflow containers](../images/components/doorhangers/doorhanger-overflow.png)
+
+<div markdown="1">
+A doorhanger should be used to provide access to overflowing menu items as seen in the DevTools main toolbar.
+</div>
+</div>
+
+
 ## Structure
 
 ### Directional Arrow
@@ -84,6 +93,22 @@ Directional Arrow Width: `18px`
 Maximum Height: `90%`
 
 Maximum Width: `320px`
+</div>
+</div>
+
+### Dark mode
+
+<div class="grid-2" markdown="1">
+![Doorhanger appearance in dark mode](../images/components/doorhangers/doorhanger-darkmode.png)
+
+<div markdown="1">
+Occurrences of the doorhanger component in DevTools should adapt to the users' selected theme.
+
+Background: Grey 60 `#4a4a4f`
+
+Text: Grey 10 `#f9f9fa`
+
+Background Hover: `rgba(249,249,250,.1)` *Photon color needed*
 </div>
 </div>
 
