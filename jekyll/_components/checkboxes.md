@@ -92,6 +92,63 @@ Text Color: Grey 90 `#0c0c0d`
 </div>
 </div>
 
+### Toggle 
+
+<div data-tabs>
+  <input type="radio" name="tstyle" id="style-generic" checked="checked">
+  <label for="style-generic">Light</label>
+  <div data-tab markdown="1">
+
+<div class="grid-2" markdown="1">
+![Toggle in light mode](../images/components/checkboxes/checkbox-toggle-light.png)
+
+<div markdown="1">
+
+Cursor: `pointer`
+
+#### Disabled
+
+Background: Grey 30 `#d7d7db`
+
+Switch(thumb): White `#ffffff`
+
+#### Enabled
+
+Background: Blue 55 `0074e8`
+
+Switch(thumb): White `#ffffff`
+
+</div>
+</div>
+  </div>
+
+
+  <input type="radio" name="tstyle" id="style-success">
+  <label for="style-success">Dark</label>
+  <div data-tab markdown="1">
+
+<div class="grid-2" markdown="1">
+![Toggle in dark mode](../images/components/checkboxes/checkbox-toggle-dark.png)
+
+<div markdown="1">
+Cursor: `pointer`
+
+#### Disabled
+
+Background: Grey 60 `#4a4a4f`
+
+Switch(thumb): Grey 40 `#b1b1b3`
+
+#### Enabled
+
+Background: Blue 55 `0074e8`
+
+Switch(thumb): White `#ffffff`
+</div>
+</div>
+  </div>
+</div>
+
 ## Behaviors
 
 ### On / Off
@@ -184,6 +241,23 @@ Box Shadow: `0 0 0 1px #0a84ff inset, 0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132,
 </div>
 </div>
 
+
+#### Toggle Animation
+
+<div class="grid-2" markdown="1">
+![Toggle slide animation](../images/components/checkboxes/checkbox-toggle-animation.gif)
+{:.animated}
+
+<div markdown="1">
+On click, the toggle control animates between disabled and enabled states.
+
+The animation includes the transitioning background colors and the switch movement from left to right (enabling) and right to left (disabling).
+
+
+</div>
+</div>
+
+
 ## Copy Rules
 
 * Use the imperative voice for checkbox labels.
@@ -191,3 +265,16 @@ Box Shadow: `0 0 0 1px #0a84ff inset, 0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132,
 * Do not use terminal punctuation for checkbox labels.
 
 * Maintain parallel construction for lists of related checkbox labels.
+
+## Future Improvements
+
+<div class="grid-2" markdown="1">
+![Toggle slide animation](../images/components/checkboxes/checkbox-toggle-future.svg)
+{:.animated}
+
+<div markdown="1">
+A revision to the toggle control is soon to appear in the ‘about’ pages of Firefox. The redesign features a tick symbol to reinforce clarity of the enabled state.
+
+
+</div>
+</div>

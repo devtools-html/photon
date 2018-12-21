@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="240px" viewBox="0 0 360 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Checkboc-toggle-future</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Checkboc-toggle-future" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="360" height="240"></rect>
+        <g id="input/toogle/on-copy" transform="translate(130.000000, 92.000000)">
+            <rect id="Rectangle-2332-Copy" stroke="#0060DF" stroke-width="2.79999995" fill="#0A84FF" x="1.39999998" y="1.39999998" width="98.2" height="53.2" rx="26.6"></rect>
+            <g id="Glyph-/-Check-light" transform="translate(11.222222, 11.200000)" stroke="#F9F9FA" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.5999999">
+                <polyline id="Path-4" points="5.2888888 17.9822219 13.7511109 27.5022218 28.5599995 5.2888888"></polyline>
+            </g>
+            <ellipse id="Oval-38-Copy" stroke-opacity="0.5" stroke="#0060DF" stroke-width="2.79999995" fill="#FFFFFF" cx="72.9444444" cy="28" rx="23.8444444" ry="23.8"></ellipse>
+        </g>
+    </g>
+</svg>
