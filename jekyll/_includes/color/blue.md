@@ -1,5 +1,17 @@
 <table class="colors">
   <tbody>
+    <tr class="blue-20">
+      <td class="name">Blue 20</td>
+      <td><code>#baddff</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="fg">Fails</td>
+    </tr>
+    <tr class="blue-30">
+      <td class="name">Blue 30</td>
+      <td><code>#80bfff</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="fg">Fails</td>
+    </tr>
     <tr class="blue-40">
       <td class="name">Blue 40</td>
       <td><code>#45a1ff</code></td>

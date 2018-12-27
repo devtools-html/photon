@@ -3,7 +3,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 /* Photon Colors SCSS Variables v3.3.1 */
-
+$magenta-40: #ff54e3;
 $magenta-50: #ff1ad9;
 $magenta-60: #ed00b5;
 $magenta-70: #b5007f;
@@ -18,6 +18,8 @@ $purple-70: #6200a4;
 $purple-80: #440071;
 $purple-90: #25003e;
 
+$blue-20: #baddff;
+$blue-30: #80bfff;
 $blue-40: #45a1ff;
 $blue-50: #0a84ff;
 $blue-50-a30: rgba(10, 132, 255, 0.3);
@@ -44,6 +46,7 @@ $yellow-70: #a47f00;
 $yellow-80: #715100;
 $yellow-90: #3e2800;
 
+$red-40: #ff3b65;
 $red-50: #ff0039;
 $red-60: #d70022;
 $red-70: #a4000f;
@@ -89,4 +92,14 @@ $ink-80: #202340;
 $ink-90: #0f1126;
 
 $white-100: #ffffff;
+
+//DevTools Special Case
+$blue-55: #0074e8;
+$magenta-65: #dd00a9;
+$yellow-65: #be9b00;
+$grey-25: #e0e0e2;
+$grey-45: #939395;
+$grey-55: #5c5c5f;
+$grey-85: #1b1b1d;
+
 

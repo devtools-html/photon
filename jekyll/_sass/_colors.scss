@@ -151,6 +151,24 @@
   }
 
   /* Blues. */
+  .blue-20 {
+    .name::before, .bg {
+      background-color: $blue-20;
+      color: $blue-90;
+    }
+    .fg {
+      color: $blue-20;
+    }
+  }
+  .blue-30 {
+    .name::before, .bg {
+      background-color: $blue-30;
+      color: $blue-90;
+    }
+    .fg {
+      color: $blue-30;
+    }
+  }
   .blue-40 {
     .name::before, .bg {
       background-color: $blue-40;
@@ -254,6 +272,15 @@
   }
 
   /* Magentas. */
+  .magenta-40 {
+    .name::before, .bg {
+      background-color: $magenta-40;
+      color: $magenta-90;
+    }
+    .fg {
+      color: $magenta-40;
+    }
+  }
   .magenta-50 {
     .name::before, .bg {
       background-color: $magenta-50;
@@ -395,6 +422,15 @@
   }
 
   /* Reds. */
+  .red-40 {
+    .name::before, .bg {
+      background-color: $red-40;
+      color: $white-100;
+    }
+    .fg {
+      color: $red-40;
+    }
+  }
   .red-50 {
     .name::before, .bg {
       background-color: $red-50;
@@ -671,4 +707,69 @@
       border: 1px solid $grey-color-light;
     }
   }  
+
+    /* DevTools Specific. */
+    .blue-55 {
+      .name::before, .bg {
+        background-color: $blue-55;
+        color: $white-100;
+      }
+      .fg {
+        color: $blue-55;
+      }
+    } 
+    .magenta-65 {
+      .name::before, .bg {
+        background-color: $magenta-65;
+        color: $white-100;
+      }
+      .fg {
+        color: $magenta-65;
+      }
+    } 
+    .yellow-65 {
+      .name::before, .bg {
+        background-color: $yellow-65;
+        color: $yellow-90;
+      }
+      .fg {
+        color: $yellow-65;
+      }
+    } 
+    .grey-25 {
+      .name::before, .bg {
+        background-color: $grey-25;
+        color: $grey-90;
+      }
+      .fg {
+        color: $grey-25;
+      }
+    } 
+    .grey-45 {
+      .name::before, .bg {
+        background-color: $grey-45;
+        color: $grey-90;
+      }
+      .fg {
+        color: $grey-45;
+      }
+    } 
+    .grey-55 {
+      .name::before, .bg {
+        background-color: $grey-55;
+        color: $white-100;
+      }
+      .fg {
+        color: $grey-55;
+      }
+    } 
+    .grey-85 {
+      .name::before, .bg {
+        background-color: $grey-85;
+        color: $white-100;
+      }
+      .fg {
+        color: $grey-85;
+      }
+    } 
 }
