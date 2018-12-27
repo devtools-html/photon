@@ -54,6 +54,7 @@ As ancillary sidebars provide in context information, a button to toggle the sid
 
 <div class="grid-2" markdown="1">
 ![sidebar resizing](../images/patterns/sidebars/sidebars-resize.gif)
+{:.animated}
 
 <div markdown="1">
 All sidebars should be resizable, allowing the user to customize the layout to adapt to the task at hand. The ability to resize a sidebar should be signified to the user by changing the mouse cursor from a `default` pointer to a `ew-resize` pointer when the cursor enters the draggable edge of the sidebar. 
@@ -76,6 +77,7 @@ Panel toggle and close buttons must achieve tab focus via the keyboard, when the
 
 <div class="grid-2" markdown="1">
 ![sidebar button animation](../images/patterns/sidebars/sidebars-animation.gif)
+{:.animated}
 
 <div markdown="1">
 The "Collapse Panes" buttons in the debugger currently sport an onclick animation. When activated, the buttons rotate 180 degrees in 0.25 seconds. The quick animation escapes the user as their focus on the button is lost during the instant relocation of the panel and button. The animation is only witnessed in full if the user focuses on the area of the screen where the buttons will eventually move to (not from).
