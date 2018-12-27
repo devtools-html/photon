@@ -1,5 +1,11 @@
 <table class="colors">
   <tbody>
+    <tr class="magenta-40">
+      <td class="name">Magenta 40</td>
+      <td><code>#ff54e3</code></td>
+      <td><span class="bg">AA</span></td>
+      <td class="fg">AA Large</td>
+    </tr>
     <tr class="magenta-50">
       <td class="name">Magenta 50</td>
       <td><code>#ff1ad9</code></td>

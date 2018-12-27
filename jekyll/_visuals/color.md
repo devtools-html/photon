@@ -81,6 +81,15 @@ We use white for the background of doorhangers or in-content menus.
 
 {% include color/white.md %}
 
+### DevTools Exclusive Additions
+
+The complex interface of DevTools has yielded an expansion to the standard Photon color chart.   
+These Photon colors should **only** be used in exceptional circumstances when standard photon colors do not provide a sufficient color range or contrast in DevTools interfaces.
+
+**These reserve colors should not be used in any other scenario.**
+
+{% include color/devtools.md %}
+
 ## Text and Background Colors
 
 Visit [typography](typography.html) for more information on text color.
